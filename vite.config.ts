@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/cfc-2026-austin/',
+  base: process.env.VERCEL ? '/' : '/cfc-2026-austin/',
 })
