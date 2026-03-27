@@ -2,17 +2,16 @@ export function Letter() {
   return (
     <section id="letter" className="section section-letter">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header scroll-reveal">
           <span className="section-tag">Invitation</span>
           <h2 className="section-heading">A Letter to You</h2>
         </div>
 
-        {/* Prayer Circle Photo */}
-        <div className="prayer-photo-wrapper">
-          <img src="/images/prayer-circle.png" alt="Brothers and sisters in a prayer circle" className="prayer-photo" />
+        <div className="prayer-photo-wrapper scroll-reveal">
+          <img src="/images/prayer-circle.png" alt="Brothers and sisters in a prayer circle" className="prayer-photo" loading="lazy" />
         </div>
 
-        <div className="letter-wrapper">
+        <div className="letter-wrapper scroll-reveal">
           <div className="verse-block">
             "Then, they went away quickly from the tomb, fearful yet overjoyed, and ran to announce this to his disciples... Then Jesus said to them, 'Do not be afraid. Go, tell my brothers to go to Galilee, and there they will see me."
             <span className="verse-ref">— Matthew 28:8-10</span>
@@ -21,7 +20,7 @@ export function Letter() {
           <div className="letter-body">
             <p><strong>Greetings, brothers and sisters in Christ!</strong></p>
             <p>
-              This year, as the <strong>CFC NATCON in Austin, Texas — July 10-16, 2026</strong> approaches, we are called to be <em>anchored</em> in Christ! We give thanks for opportunities to praise God through the many talents He has blessed us with. With joyful hearts, we prepare to glorify Him through the NATCON Creatives!
+              This year, as the <strong>CFC NATCON in Austin, Texas — July 10-12, 2026</strong> approaches, we are called to be <em>anchored</em> in Christ! We give thanks for opportunities to praise God through the many talents He has blessed us with. With joyful hearts, we prepare to glorify Him through the NATCON Creatives!
             </p>
             <p>
               This is the biggest CFC gathering in the USA, bringing together <strong>Indian Christian families from all states and delegates from India</strong>. Over 3 days and 2 nights, experience a life-changing weekend full of salvation, worship, workshops, prayer sessions, children's Sunday School, quizzes, group discussions, testimonials, and so much more!

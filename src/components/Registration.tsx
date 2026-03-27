@@ -2,13 +2,13 @@ export function Registration() {
   return (
     <section id="registration" className="section section-registration">
       <div className="container">
-        <div className="section-header">
+        <div className="section-header scroll-reveal">
           <span className="section-tag">Join Us</span>
           <h2 className="section-heading">Save Your Spot</h2>
           <p className="section-sub">Join believers from across the USA and India for a life-changing experience. All ages welcome!</p>
         </div>
 
-        <div className="reg-card">
+        <div className="reg-card scroll-reveal">
           <div className="reg-price">$296</div>
           <p className="reg-per">per person</p>
 
@@ -27,7 +27,7 @@ export function Registration() {
             Credit Card • ACH • Apple Pay • Google Pay<br/>
             Room reservations confirmed after payment.
           </p>
-          <p className="reg-note" style={{color: '#6366f1', fontWeight: 600, marginTop: '8px'}}>
+          <p className="reg-note reg-note-accent">
             Powered by Zeffy — 100% goes to our mission!
           </p>
         </div>
